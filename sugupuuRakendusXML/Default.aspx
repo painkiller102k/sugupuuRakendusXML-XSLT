@@ -26,6 +26,13 @@
       <br />count() - arvutab kogus
       <br />substring(nimi, 1, 1) - eraldab nimest 1. täht
       <br />string-lenght(nimi) - sümboolite arv
+      <br />start-with(nimi, 'A') - tähtkontroll
+      <br />last() - viimane järjekorranumber
+      <br />position() - jooksva järjekorranumber
+      <br />not() , true(), false()
+      <br /> normalize-space() - võtab tühikud ja muud vahed ära
+      <br />translate(nimi, algsümboolid, lõppsümboolid) - asendab tähed Näiteks : (( translate (kass, 'ss','tt') -> katt ))
+
   </section>
 
     </main>

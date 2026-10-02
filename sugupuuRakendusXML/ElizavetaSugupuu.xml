@@ -1,26 +1,24 @@
-﻿<?xml version="1.0" encoding="utf-8" ?> 
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <!--jada-->
 <inimene synd="1926">
-	<nimi>Elisaveta 2
-	</nimi>
+	<nimi>Elisaveta</nimi>
 	<lapsed>
 		<inimene synd="1945">
-			<nimi>Charles
-			</nimi>
+			<nimi>Charles</nimi>
 			<lapsed>
 				<inimene synd="1981">
-					<nimi>Harry</nimi>
+					<nimi>Harryll</nimi>
 				</inimene>
 
 				<inimene synd="1985">
 					<nimi>William</nimi>
 				</inimene>
-				
+
 			</lapsed>
 		</inimene>
 		<inimene synd="1940">
-		<nimi>Anne</nimi>
+			<nimi>C.Anne</nimi>
 		</inimene>
-		
+
 	</lapsed>
 </inimene>
