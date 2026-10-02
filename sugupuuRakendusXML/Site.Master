@@ -49,6 +49,7 @@
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/About">Sugupuu</a></li>
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/Contact">Martin Sugupuu</a></li>
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/Contact2">XML skeem</a></li>
+                        <li class="nav-item"><a class="nav-link" runat="server" href="~/Contact3">XML Reis</a></li>
                     </ul>
                 </div>
             </div>

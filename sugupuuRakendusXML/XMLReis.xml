@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Reisid>
+
+	<Reis>
+		<Sihtkoht>
+			<Linn>Pariis</Linn>
+			<Riik>Prantsusmaa</Riik>
+		</Sihtkoht>
+		<Transport>
+			<Linn>Air Baltic</Linn>
+			<Lennujaam>Tallinn Airport</Lennujaam>
+		</Transport>
+		<Majutus>
+			<Hotell>Hotel Lumiere</Hotell>
+			<Hind>615</Hind>
+		</Majutus>
+	</Reis>
+
+	<Reis>
+		<Sihtkoht>
+			<Linn>London</Linn>
+			<Riik>Ühendkuningriik</Riik>
+		</Sihtkoht>
+		<Transport>
+			<Linn>Finnair</Linn>
+			<Lennujaam>Tallinn Airport</Lennujaam>
+		</Transport>
+		<Majutus>
+			<Hotell>Royal Thames Hotel</Hotell>
+			<Hind>625</Hind>
+		</Majutus>
+	</Reis>
+
+	<Reis>
+		<Sihtkoht>
+			<Linn>Rooma</Linn>
+			<Riik>Itaalia</Riik>
+		</Sihtkoht>
+		<Transport>
+			<Linn>Ryanair</Linn>
+			<Lennujaam>Tallinn Airport</Lennujaam>
+		</Transport>
+		<Majutus>
+			<Hotell>Roma Centro Hotel</Hotell>
+			<Hind>450</Hind>
+		</Majutus>
+	</Reis>
+
+	<Reis>
+		<Sihtkoht>
+			<Linn>Barcelona</Linn>
+			<Riik>Hispaania</Riik>
+		</Sihtkoht>
+		<Transport>
+			<Linn>Ryanair</Linn>
+			<Lennujaam>Tallinn Airport</Lennujaam>
+		</Transport>
+		<Majutus>
+			<Hotell>Catalonia Plaza</Hotell>
+			<Hind>520</Hind>
+		</Majutus>
+	</Reis>
+
+	<Reis>
+		<Sihtkoht>
+			<Linn>Amsterdam</Linn>
+			<Riik>Holland</Riik>
+		</Sihtkoht>
+		<Transport>
+			<Linn>KLM</Linn>
+			<Lennujaam>Tallinn Airport</Lennujaam>
+		</Transport>
+		<Majutus>
+			<Hotell>Canal View Hotel</Hotell>
+			<Hind>605</Hind>
+		</Majutus>
+	</Reis>
+
+	<Reis>
+		<Sihtkoht>
+			<Linn>Berliin</Linn>
+			<Riik>Saksamaa</Riik>
+		</Sihtkoht>
+		<Transport>
+			<Linn>Air Baltic</Linn>
+			<Lennujaam>Tallinn Airport</Lennujaam>
+		</Transport>
+		<Majutus>
+			<Hotell>Berlin Mitte Hotel</Hotell>
+			<Hind>405</Hind>
+		</Majutus>
+	</Reis>
+
+	<Reis>
+		<Sihtkoht>
+			<Linn>Viin</Linn>
+			<Riik>Austria</Riik>
+		</Sihtkoht>
+		<Transport>
+			<Linn>Austrian Airlines</Linn>
+			<Lennujaam>Tallinn Airport</Lennujaam>
+		</Transport>
+		<Majutus>
+			<Hotell>Vienna Central</Hotell>
+			<Hind>505</Hind>
+		</Majutus>
+	</Reis>
+
+	<Reis>
+		<Sihtkoht>
+			<Linn>Praha</Linn>
+			<Riik>Tšehhi</Riik>
+		</Sihtkoht>
+		<Transport>
+			<Linn>Air Baltic</Linn>
+			<Lennujaam>Tallinn Airport</Lennujaam>
+		</Transport>
+		<Majutus>
+			<Hotell>Prague Old Town</Hotell>
+			<Hind>430</Hind>
+		</Majutus>
+	</Reis>
+
+	<Reis>
+		<Sihtkoht>
+			<Linn>Helsingi</Linn>
+			<Riik>Soome</Riik>
+		</Sihtkoht>
+		<Transport>
+			<Linn>Eckerö Line</Linn>
+			<Lennujaam>Tallinn Harbour</Lennujaam>
+		</Transport>
+		<Majutus>
+			<Hotell>Harbour Hotel</Hotell>
+			<Hind>265</Hind>
+		</Majutus>
+	</Reis>
+
+	<Reis>
+		<Sihtkoht>
+			<Linn>Stockholm</Linn>
+			<Riik>Rootsi</Riik>
+		</Sihtkoht>
+		<Transport>
+			<Linn>Tallink Silja</Linn>
+			<Lennujaam>Tallinn Harbour</Lennujaam>
+		</Transport>
+		<Majutus>
+			<Hotell>Nordic Stay</Hotell>
+			<Hind>320</Hind>
+		</Majutus>
+	</Reis>
+
+</Reisid>

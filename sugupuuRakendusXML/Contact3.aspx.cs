@@ -9,7 +9,7 @@ namespace sugupuuRakendusXML
 {
     public partial class Contact : Page
     {
-        protected void Contact3(object sender, EventArgs e)
+        protected void Page_Load(object sender, EventArgs e)
         {
 
         }
