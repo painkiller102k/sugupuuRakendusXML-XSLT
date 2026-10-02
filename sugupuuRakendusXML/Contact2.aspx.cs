@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace sugupuuRakendusXML
 {
-    public partial class Contact2 : Page
+    public partial class Contact : Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
