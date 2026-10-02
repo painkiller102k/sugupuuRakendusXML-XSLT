@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- Martin Sugupuu -->
+<inimene synd="1945">
+	<nimi>Mihail</nimi>
+	<lapsed>
+		<inimene synd="1966">
+			<nimi>Angelika</nimi>
+			<lapsed>
+				<inimene synd="1983">
+					<nimi>Alina</nimi>
+				</inimene>
+
+				<inimene synd="2006">
+					<nimi>Martin</nimi>
+				</inimene>
+			</lapsed>
+		</inimene>
+	</lapsed>
+</inimene>
