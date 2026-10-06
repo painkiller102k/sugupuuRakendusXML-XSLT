@@ -3,25 +3,70 @@
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:msxsl="urn:schemas-microsoft-com:xslt"
     exclude-result-prefixes="msxsl">
-	<xsl:output method="xml" indent="yes"/>
-	
+
+	<xsl:output method="html" indent="yes"/>
+
 	<xsl:template match="/">
 
-		<strong>Kõik suunad: </strong>
-		<h1>
-		<xsl:for-each select="Reisid/Reis">
-			<xsl:apply-templates select="Sihtkoht/Riik"/>,
-		</xsl:for-each>
-		</h1>
+		<strong>Kõik suunad:</strong>
 
-		<ul>
-			<xsl:for-each select="Reisid/Reis">
+		<xsl:for-each select="Reisid/Reis[Transport='Lennureis']">
+		<xsl:sort select="Hinnang" data-type="number" order="descending"/>
+
+			<h1>
+				<xsl:value-of select="Suund/Riik"/>
+			</h1>
+
+			<ul>
 				<li>
 					<xsl:attribute name="style">background-color: yellow;</xsl:attribute>
-					<xsl:value-of select="concat(Sihtkoht/Linn, ', ', Sihtkoht/Riik, ', ', Transport/Linn, ', ', Transport/Lennujaam, ', ', Majutus/Hotell, ', ', Majutus/Hind, ' €')"/>
+					Riik: <xsl:value-of select="Suund/Riik"/>
 				</li>
-			</xsl:for-each>
-		</ul>
+
+				<li>
+					<xsl:attribute name="style">background-color: yellow;</xsl:attribute>
+					Kestvus: <xsl:value-of select="Suund/Kestvus"/> päeva
+				</li>
+
+				<li>
+					Transport: <xsl:value-of select="Transport"/>
+				</li>
+
+				<li>
+					Majutus: <xsl:value-of select="Majutus"/>
+				</li>
+
+				<li>
+					Ekskursioonid: <xsl:value-of select="Ekskursioonid"/> €
+				</li>
+
+				<li>
+					Muud kulud: <xsl:value-of select="MuudKulud"/> €
+				</li>
+
+				<li>
+					Hinnang: <xsl:value-of select="Hinnang"/>/5
+				</li>
+				
+				
+				<li>
+					Reisihind: <xsl:value-of select="Reisihind"/> €
+
+				<li>
+					Kogumaksumus: <xsl:value-of select="Reisihind + Ekskursioonid + MuudKulud"/> € Kogu reisi maksumus
+				</li>
+					
+				</li>
+			</ul>
+
+			<xsl:if test="Suund/Kestvus &gt; 7">
+				<p>
+					<xsl:attribute name="style">background-color: red;</xsl:attribute>
+					<strong>Pikk reis > 7 kestvus päeva</strong>
+				</p>
+			</xsl:if>
+
+		</xsl:for-each>
 
 	</xsl:template>
 

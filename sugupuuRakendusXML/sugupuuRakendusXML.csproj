@@ -126,7 +126,9 @@
     <Content Include="Global.asax" />
     <Content Include="martinSugupuu.xml" />
     <Content Include="martinSugupuu.xslt" />
-    <Content Include="ReisParing.xslt" />
+    <Content Include="ReisParing.xslt">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
