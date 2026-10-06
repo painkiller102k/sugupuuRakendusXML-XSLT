@@ -11,7 +11,7 @@
 		<strong>Kõik suunad:</strong>
 
 		<xsl:for-each select="Reisid/Reis[Transport='Lennureis']">
-		<xsl:sort select="Hinnang" data-type="number" order="descending"/>
+			<xsl:sort select="Suund/Kestvus" data-type="number" order="descending"/>
 
 			<h1>
 				<xsl:value-of select="Suund/Riik"/>
@@ -47,27 +47,91 @@
 				<li>
 					Hinnang: <xsl:value-of select="Hinnang"/>/5
 				</li>
-				
-				
+
 				<li>
 					Reisihind: <xsl:value-of select="Reisihind"/> €
+				</li>
 
 				<li>
 					Kogumaksumus: <xsl:value-of select="Reisihind + Ekskursioonid + MuudKulud"/> € Kogu reisi maksumus
-				</li>
-					
 				</li>
 			</ul>
 
 			<xsl:if test="Suund/Kestvus &gt; 7">
 				<p>
 					<xsl:attribute name="style">background-color: red;</xsl:attribute>
-					<strong>Pikk reis > 7 kestvus päeva</strong>
+					<strong>Pikk reis &gt; 7 kestvus päeva</strong>
 				</p>
 			</xsl:if>
 
 		</xsl:for-each>
 
+
+		<strong>Reisid tabel</strong>
+		<br>
+			
+		</br>
+
+		<table>
+
+			<tr>
+				<th>Riik</th>
+				<th>Kestvus</th>
+				<th>Transport</th>
+				<th>Majutus</th>
+				<th>Ekskursioonid</th>
+				<th>Muud kulud</th>
+				<th>Hinnang</th>
+				<th>Reisihind</th>
+				<th>Kogumaksumus</th>
+			</tr>
+
+			<xsl:for-each select="Reisid/Reis">
+
+				<tr>
+
+					<td>
+						<xsl:value-of select="Suund/Riik"/>
+					</td>
+	
+					<td>
+						<xsl:value-of select="Suund/Kestvus"/> päeva
+					</td>
+
+					<td>
+						<xsl:value-of select="Transport"/>
+					</td>
+
+					<td>
+						<xsl:value-of select="Majutus"/>
+					</td>
+
+					<td>
+						<xsl:value-of select="Ekskursioonid"/> €
+					</td>
+
+					<td>
+						<xsl:value-of select="MuudKulud"/> €
+					</td>
+
+					<td>
+						<xsl:value-of select="Hinnang"/>/5
+					</td>
+
+					<td>
+						<xsl:value-of select="Reisihind"/> €
+					</td>
+
+					<td>
+						<xsl:value-of select="Reisihind + Ekskursioonid + MuudKulud"/> €
+					</td>
+
+				</tr>
+
+			</xsl:for-each>
+
+		</table>
+
 	</xsl:template>
 
-</xsl:stylesheet>
+</xsl:stylesheet>	

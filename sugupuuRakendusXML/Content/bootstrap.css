@@ -10874,5 +10874,17 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
 
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+table tr:nth-child(2n+1) {
+    background-color: mediumpurple;
+}
 /*# sourceMappingURL=bootstrap.css.map */

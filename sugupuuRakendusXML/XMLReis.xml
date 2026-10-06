@@ -5,7 +5,7 @@
 	<Reis>
 		<Suund>
 			<Riik>Prantsusmaa</Riik>
-			<Kestvus>5</Kestvus>
+			<Kestvus>8</Kestvus>
 		</Suund>
 		<Transport>Lennureis</Transport>
 		<Majutus>Hotel Lumiere</Majutus>
@@ -18,7 +18,7 @@
 	<Reis>
 		<Suund>
 			<Riik>Suurbritannia</Riik>
-			<Kestvus>8</Kestvus>
+			<Kestvus>5</Kestvus>
 		</Suund>
 		<Transport>Lennureis</Transport>
 		<Majutus>Royal Thames Hotel</Majutus>
@@ -31,7 +31,7 @@
 	<Reis>
 		<Suund>
 			<Riik>Itaalia</Riik>
-			<Kestvus>7</Kestvus>
+			<Kestvus>9</Kestvus>
 		</Suund>
 		<Transport>Lennureis</Transport>
 		<Majutus>Roma Centro Hotel</Majutus>
@@ -57,7 +57,7 @@
 	<Reis>
 		<Suund>
 			<Riik>Holland</Riik>
-			<Kestvus>6</Kestvus>
+			<Kestvus>3</Kestvus>
 		</Suund>
 		<Transport>Lennureis</Transport>
 		<Majutus>Canal View Hotel</Majutus>
@@ -70,7 +70,7 @@
 	<Reis>
 		<Suund>
 			<Riik>Saksamaa</Riik>
-			<Kestvus>4</Kestvus>
+			<Kestvus>14</Kestvus>
 		</Suund>
 		<Transport>Lennureis</Transport>
 		<Majutus>Berlin Mitte Hotel</Majutus>
@@ -83,7 +83,7 @@
 	<Reis>
 		<Suund>
 			<Riik>Austria</Riik>
-			<Kestvus>8</Kestvus>
+			<Kestvus>4</Kestvus>
 		</Suund>
 		<Transport>Lennureis</Transport>
 		<Majutus>Vienna Central</Majutus>
@@ -96,7 +96,7 @@
 	<Reis>
 		<Suund>
 			<Riik>Tšehhi</Riik>
-			<Kestvus>5</Kestvus>
+			<Kestvus>2</Kestvus>
 		</Suund>
 		<Transport>Lennureis</Transport>
 		<Majutus>Prague Old Town</Majutus>
@@ -109,7 +109,7 @@
 	<Reis>
 		<Suund>
 			<Riik>Soome</Riik>
-			<Kestvus>3</Kestvus>
+			<Kestvus>1</Kestvus>
 		</Suund>
 		<Transport>Laevareis</Transport>
 		<Majutus>Harbour Hotel</Majutus>
@@ -122,7 +122,7 @@
 	<Reis>
 		<Suund>
 			<Riik>Rootsi</Riik>
-			<Kestvus>9</Kestvus>
+			<Kestvus>2</Kestvus>
 		</Suund>
 		<Transport>Laevareis</Transport>
 		<Majutus>Nordic Stay</Majutus>
